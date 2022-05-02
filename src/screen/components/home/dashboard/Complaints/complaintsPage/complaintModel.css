@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%; 
+    box-sizing: border-box;
+}  
+h1{
+    padding: 0.5rem 1rem;
+}
+
+.create-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+} 
+.create-container .create-complaints{
+    max-width: 500px;
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    box-shadow: opx 0px 19px 5px rgba(0, 0, 0, 0.19);
+   
+} 
+.create-container .create-complaints .text{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    outline: none; 
+    border-radius: 7px;
+    border: 2px solid rgba(0,0,0, 0); 
+    background-color: rgba(230,230,230, 0.6);
+
+    
+}  
+.complaint .complaint-card{
+position: relative;
+}
+.create-container .create-complaints .submit{
+    width: 50%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-image: linear-gradient(45deg, rgb(10, 250, 238), rgb(94, 94, 241));
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+} 
+.create-container .create-complaints .text:hover{
+    background-color: rgba(0,0,0, 0.1);
+}
+.create-container .create-complaints .text:focus{
+    background-color: white;
+    border: 2px solid rgba(30,85, 250, 0.47);
+}
+.create-container .create-complaints .area{
+    max-height: 500px;
+    max-width: 600px; 
+    min-width: 300px;
+    min-height: 100px; 
+    text-align: left;
+} 
+.create-container .create-complaints .submit:hover{
+background-color: rgba(0, 255, 255, 0.788)
+}

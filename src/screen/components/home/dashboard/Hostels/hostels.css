@@ -1,0 +1,39 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    
+}   
+
+.hostel-list{ 
+    
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    
+  flex-wrap:wrap;
+  
+  align-items: center;
+
+}
+.hostel{ 
+
+  
+    width: 300px;
+   padding: 50px;
+    height: 300px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+.child{  
+    border-radius: 15px;
+    width: 200px; 
+    height: 200px;
+    background-image: linear-gradient(45deg, rgb(10, 250, 238), rgb(94, 94, 241)); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color:#fff;
+    font-weight: bolder;
+}

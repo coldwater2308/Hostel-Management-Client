@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+body{
+    width: 100%;
+    height: 100vh;
+} 
+.profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+} 
+.profile .profile-card {
+    width: 500px;
+   height: 630px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid slategrey;   */
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px cadetblue;
+}
+.profile .profile-card img{ 
+    margin: 20px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.profile .profile-card table{ 
+    width: 100%;
+    border-collapse: collapse;
+} 
+.profile .profile-card table tr{
+      height: 40px;  
+       
+      
+}
+.profile .profile-card table tr td{
+    padding: 20px 40px; 
+    font-size: 16px; 
+    text-align: left;
+}
+.profile .profile-card button{
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.room-footer{
+
+width: 100% ;
+display: flex;
+justify-content: center;
+
+
+}
+footer{ 
+    border-radius: 10px;
+    position: fixed;
+    /* padding: 10px 10px 0px 10px; */
+    bottom: 0;
+    width: 60%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: grey; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    background-image: linear-gradient(75deg, rgb(10, 250, 238), rgb(94, 94, 241));
+} 
+.footer{
+    line-height: 1.5;
+    padding: 0 20px;
+}

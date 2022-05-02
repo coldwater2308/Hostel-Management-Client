@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+} 
+.complaint-container{ 
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.complaint-container .complaints{
+  
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.complaint-container .complaint{ 
+    width: 100%;
+    margin: 5px 0 ;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem; 
+    position: relative;
+} 
+.complaint .type{
+    position: absolute; 
+    top: 5px;
+    right: 5px;
+
+
+   
+}
+.complaint-container .complaint .head{
+    display: flex;  
+   
+    justify-content: space-between;
+}
+.complaint-container .complaint .head span{   
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    background-color: yellow; 
+
+    border-radius: 10px;
+    flex: 2; 
+}
+.complaint-container .complaint .head h3{
+    flex: 8
+} 
+.complaint-container .add-complaint{
+position: fixed; 
+bottom: 20px;
+right: 20px;
+min-width: 30px;  
+height: 40px;
+border-radius: 25px;
+border: none; 
+color: #fff; 
+font-size: 1.3rem;
+background: linear-gradient(45deg, rgb(10, 250, 238), rgb(94, 94, 241))
+
+}

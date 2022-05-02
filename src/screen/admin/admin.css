@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+} 
+
+.admin .navbar{  
+    
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.admin .navbar a{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 10px;
+
+} 
+a .active{
+    color: rgb(49, 49, 237); 
+  
+    
+}
