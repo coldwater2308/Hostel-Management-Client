@@ -23,9 +23,24 @@ function Students(){
     );
 }
 function Staff(){
-    return ( 
-       
+    return ( <>
+       <table> 
+       <thead>
+ <tr>
+ <th>Username</th>
+ <th>Name</th>
+ <th>Email</th>
+ <th>Dob</th>
+ </tr>
+       </thead>
+<tbody>
+  <tr>
+    <td></td>
+  </tr>
+</tbody>
+       </table>
         <Student user= "staff"/>
+        </>
     );
 }
 
